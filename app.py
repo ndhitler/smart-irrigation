@@ -24,15 +24,14 @@ if not st.session_state.show_prediction_app:
     st.markdown("---")
 
     st.markdown("**Name:** NDAYIMENYE Samuel")
-    st.markdown("**Registration Number:** 20RP02292")
+    st.markdown("**Name:** HABYARIMANA Stanislas")
+    st.markdown("**Registration Number:** 26RP02292")
+    st.markdown("**Registration Number:** 26RP02060")
     st.markdown(
         "**Program:** BTech in Electronics and Telecommunication Technology"
     )
     st.markdown("**Institution:** RP Kigali College")
     st.markdown("**Course/Module:** Machine Learning")
-
-    st.markdown("---")
-
     st.markdown("**Module Code:** GENML801")
     st.markdown("**Assignment:** Machine Learning Assignment 2")
 
@@ -70,9 +69,9 @@ def train_model():
 
     n_samples = 3000
 
-    soil_moisture = np.random.uniform(5, 90, n_samples)
-    temperature = np.random.uniform(15, 42, n_samples)
-    air_humidity = np.random.uniform(20, 95, n_samples)
+    soil_moisture = np.random.uniform(1, 100, n_samples)
+    temperature = np.random.uniform(1, 100, n_samples)
+    air_humidity = np.random.uniform(1, 100, n_samples)
 
     # Simulated rule for creating training labels
     irrigation_needed = (
@@ -156,6 +155,6 @@ st.warning(
 
 st.markdown("---")
 st.caption(
-    "NDAYIMENYE Samuel | 20RP02292 | GENML801 | "
+    "NDAYIMENYE Samuel-HABYARIMANA Stanislas | 26RP02292 - 26RP02060 | GENML801 | "
     "Machine Learning Assignment 2"
 )
