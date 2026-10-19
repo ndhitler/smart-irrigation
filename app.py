@@ -149,9 +149,6 @@ st.write("**Algorithm:** Random Forest Classification")
 st.write("**Training data:** 3,000 simulated records")
 st.write(f"**Test accuracy on simulated data:** {accuracy:.2%}")
 
-#st.warning(
-   Educational prototype: test the model with real soil and crop data "
-   "before using its predictions for actual irrigation decisions."
 )
 
 st.markdown("---")
