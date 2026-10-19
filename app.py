@@ -138,9 +138,9 @@ if st.button("Predict Irrigation", type="primary"):
     else:
         st.success("🌿 DO NOT IRRIGATE — The model predicts that irrigation is not needed.")
 
-    #st.caption(
-        #"This prediction is based on simulated training data, "
-       # "not live soil sensors."
+    st.caption(
+        "This prediction is based on simulated training data, "
+        "not live soil sensors."
     )
 
 st.markdown("---")
