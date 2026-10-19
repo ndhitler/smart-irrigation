@@ -22,7 +22,7 @@ if not st.session_state.show_prediction_app:
     st.subheader("Student Information")
     st.markdown("---")
     
-    st.subheader("Group memembers:")
+    st.subheader("**Group Members:**")
     st.markdown("**Name:** NDAYIMENYE Samuel - 26RP02292")
     st.markdown("**Name:** HABYARIMANA Stanislas - 26RP02060")
 
